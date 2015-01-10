@@ -1,0 +1,26 @@
+**How did viewing a diff between two versions of a file help you see the bug that was introduced?
+The diff made it easy for me to see the differences between the two files. As result, I was able to identify which difference (change) introduced a bug.
+
+
+**How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+Having access to the entire history of a file can help me become a more efficient programmer by helping me to dictate bugs faster and more efficiently.
+
+
+**What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+The pros of manually choosing when to create a commit is that on the user has the autonomy to choose what he/she fills is a logical change that needs to be committed. A possible con is that the user can sometimes forget to commit. Hence, leading to a commit that is too big.
+
+
+**Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately? Version control systems like Git, allow saving multiple files in one commit because Git is designed for programs where a program might be dependent on other programs. On the other hand, programs like Google Docs treat files separately because they are designed for saving files on a cloud. It is unlikely that these files will be dependent on each other.
+
+**How can you use the commands git log and git diff to view the history of files?
+The command git log can be used to view the history of all the commits made when working on a file (and its dependencies), while the command git diff can be used to ascertain the differences (additions and deletions) made between two commits.
+
+**How might using version control make you more confident to make changes that could break something?
+Using version control can make me more confident to make changes that could break something because I can always go back and initialize the code to a particular state in which a bug was first introduced (by using git checkout). Subsequently, I can find out the change that caused by using the command git diff to check the difference between that particular commit and a commit just before it. Hence, finding out the exact difference/change that led to the bug.
+
+
+**Now that you have your workspace set up, what do you want to try using Git for?
+
+I will like to use Git for controlling various versions of my AMPL and MATLAB codes.
+
+
