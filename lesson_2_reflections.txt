@@ -1,0 +1,15 @@
+What happens when you initialize a repository? Why do you need to do it?
+Initializing a repository creates a repository that was not previously exiting where you can begin to make commits. We need to do this in order to use Git.
+
+**How is the staging area different from the working directory and the repository? What value do you think it offers?
+I think the staging area is different from the working directory because you can add to and check the status of the staging area,but you can only check the status of a working direcory. A working directory might not have even been initialized into a repository. I think the staging staging makes it possible for you to be able to systematically select files that you want to have in your commits.
+
+**How can you use the staging area to make sure you have one commit per logical change?
+The staging area can be used to ensure that one commit is made per logical change by using the staging are to "house" a logical change before actually committing it.  The command git status can be used to confirm that a change has been made in the current directory (i.e. the file will be indicated as modified), and the command git diff can be used to compare the working directory and the staging area to ensure that there is a change in the working directory that has not been moved to the staging area.Then the change can be added (using git add <file>) to the staging area. Subsequently, we can confirm that this changed file has indeed been added to the staging area by using the command git diff --staged to confirm the file in the staging area to the most recent commit of that file in the repository.
+What are some situations when branches would be helpful in keeping your history organized? How would branches help? Typical situations when branches would be helful in keeping my history organized are:
+i. when I want to build an optimization model for another application based on an already previous model.
+ii. when I want to try out a new idea without messing up my already working code.
+Branches will help me create another area for me to adjust things without messing up my already working branch.
+
+**How do the diagrams help you visualize the branch structure?
+Using diagrams helps one visualize a branch structure by showing which branches are reachable and which branches are not.
