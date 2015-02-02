@@ -13,3 +13,6 @@ Branches will help me create another area for me to adjust things without messin
 
 **How do the diagrams help you visualize the branch structure?
 Using diagrams helps one visualize a branch structure by showing which branches are reachable and which branches are not.
+
+**What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Merging two branches combines the commits that have been made in the two branches together. Presenting it in a diagram the way we do enables us to see the reachability of commits from branches.
